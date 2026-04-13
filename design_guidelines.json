@@ -1,0 +1,134 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 2 (The Performance Pro)",
+  "design_philosophy": {
+    "core_principles": [
+      "Tactical Minimalism: Emphasize data clarity and competitive energy.",
+      "Command Center Feel: Dense data blocks but strictly aligned.",
+      "High Visibility: Bright orange and electric blue accents against deep obsidian to guide the user's eye."
+    ],
+    "emotion": "Elite, Competitive, Data-Driven, Intense"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Barlow Condensed, sans-serif",
+      "weights": ["600", "700", "800"],
+      "letter_spacing": "tracking-tight",
+      "usage": "Use for all primary headings, team names, scores, and division titles."
+    },
+    "body": {
+      "font_family": "DM Sans, sans-serif",
+      "weights": ["400", "500", "700"],
+      "usage": "Use for player stats, navigation links, tabular data, and descriptive text."
+    },
+    "mono": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Use for precise statistics, rank numbers, and time."
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#05080F",
+      "secondary": "#0A101C",
+      "tertiary": "#111827"
+    },
+    "surface": {
+      "card": "#0F172A",
+      "hover": "#1E293B",
+      "border": "#334155"
+    },
+    "brand": {
+      "primary": "#FF5722",
+      "primary_hover": "#E64A19",
+      "accent": "#007AFF",
+      "accent_hover": "#005BB5"
+    },
+    "text": {
+      "primary": "#F9FAFB",
+      "secondary": "#9CA3AF",
+      "muted": "#64748B",
+      "inverse": "#05080F"
+    },
+    "status": {
+      "success": "#10B981",
+      "danger": "#EF4444",
+      "warning": "#F59E0B"
+    }
+  },
+  "layout_and_spacing": {
+    "grid_system": "The Control Room Grid (grid-cols-1 md:grid-cols-3 lg:grid-cols-4)",
+    "gap": "gap-4 md:gap-6",
+    "container_padding": "p-4 md:p-8",
+    "card_padding": "p-4 md:p-6",
+    "border_radius": "rounded-lg"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#FF5722] hover:bg-[#E64A19] text-white font-bold uppercase tracking-wider rounded-md transition-colors",
+      "secondary": "bg-transparent border border-[#334155] hover:border-[#9CA3AF] text-white rounded-md transition-colors"
+    },
+    "cards": {
+      "default": "bg-[#0F172A] border border-[#334155] rounded-lg shadow-sm overflow-hidden",
+      "hover_effect": "hover:-translate-y-1 hover:shadow-lg hover:border-[#64748B] transition-all duration-200"
+    },
+    "tables": {
+      "header": "bg-[#0A101C] text-[#9CA3AF] text-xs uppercase tracking-wider font-semibold",
+      "row": "border-b border-[#334155] hover:bg-[#1E293B] transition-colors",
+      "cell": "text-sm text-[#F9FAFB] py-3 px-4"
+    },
+    "bracket": {
+      "matchup_card": "bg-[#111827] border border-[#334155] rounded-md p-2 w-48",
+      "connecting_line": "border-[#334155]",
+      "connecting_line_active": "border-[#FF5722]",
+      "winner_text": "text-[#FF5722] font-bold"
+    },
+    "navigation": {
+      "sidebar": "w-64 bg-[#0A101C] border-r border-[#334155] h-screen sticky top-0",
+      "topbar": "h-16 bg-[#05080F]/90 backdrop-blur-xl border-b border-[#334155] sticky top-0 z-50",
+      "link_active": "bg-[#1E293B] text-white border-l-4 border-[#FF5722]"
+    }
+  },
+  "motion": {
+    "hover": "transition-all duration-200 ease-in-out",
+    "entrance": "animate-in fade-in slide-in-from-bottom-4 duration-500",
+    "stagger": "stagger-1 stagger-2 stagger-3"
+  },
+  "icons": {
+    "library": "@phosphor-icons/react",
+    "style": "duotone for navigation, bold for stats/actions",
+    "installation": "yarn add @phosphor-icons/react"
+  },
+  "media": {
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://images.unsplash.com/photo-1518989229647-6377f907a0b2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxuY2FhJTIwYmFza2V0YmFsbCUyMHRvdXJuYW1lbnQlMjBicmFja2V0JTIwbG9nb3xlbnwwfHx8fDE3NzYwNDkxMDJ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Wilson NCAA basketball on black board, dark and moody."
+      },
+      {
+        "category": "auth_background",
+        "url": "https://images.unsplash.com/photo-1759338245971-6eec543d8ad9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxkYXJrJTIwc3BvcnRzJTIwYWJzdHJhY3QlMjB0ZXh0dXJlfGVufDB8fHx8MTc3NjA0OTEwMnww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract dark swirls with bright edges for a high-tech athletic feel."
+      },
+      {
+        "category": "stats_banner",
+        "url": "https://images.unsplash.com/photo-1640576905072-8181534f83ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxuY2FhJTIwYmFza2V0YmFsbCUyMHRvdXJuYW1lbnQlMjBicmFja2V0JTIwbG9nb3xlbnwwfHx8fDE3NzYwNDkxMDJ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Close up of a basketball on a court."
+      },
+      {
+        "category": "placeholder_team_logo",
+        "url": "https://images.unsplash.com/photo-1762508578257-0240afa7f740?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxiYXNrZXRiYWxsJTIwZ2FtZSUyMGRhcmt8ZW58MHx8fHwxNzc2MDQ5MDkwfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Close-up of a basketball hoop and net, to be used for default team headers."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Use Phosphor Icons for all UI iconography.",
+    "Implement Shadcn UI components but heavily customize their classes to match the 'Performance Pro' dark mode palette.",
+    "Data components (Tables, Standings) must use 'Control Room' grid layout.",
+    "Headings must use 'Barlow Condensed' with 'tracking-tight' to simulate a real sports broadcast/NCAA March Madness app.",
+    "Ensure the bracket view is highly usable on desktop and horizontally scrollable on mobile, with active orange lines indicating the winning path.",
+    "Include a 'data-testid' attribute on all interactive elements.",
+    "Set the background color globally to #05080F and default text color to #F9FAFB."
+  ]
+}
